@@ -5,4 +5,5 @@ allure-report/
 .wdio-logs/
 logs/
 screenshots/
+evidence/
 *.log
