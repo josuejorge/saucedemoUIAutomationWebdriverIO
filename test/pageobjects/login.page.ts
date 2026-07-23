@@ -8,6 +8,8 @@ class LoginPage {
 
     async navigate() {
         await browser.url('/')
+        await browser.execute(() => localStorage.clear())
+        await browser.url('/')
     }
 
     async login(username: string, password: string) {
